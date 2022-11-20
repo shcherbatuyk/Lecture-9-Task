@@ -2,7 +2,6 @@ import java.util.UUID;
 
 public class Car {
     private String id;
-    //private String brand;
     private CarBrands brand;
     private int year;
     private int mileage;
@@ -10,13 +9,9 @@ public class Car {
 
     public Car(CarBrands brand, int year, int mileage, int price) {
         this.id = UUID.randomUUID().toString();
-        //this.brand = brand;
         this.setBrand(brand);
-        //this.year = year;
         this.setYear(year);
-        //this.mileage = mileage;
         this.setMileage(mileage);
-        //this.price = price;
         this.setPrice(price);
     }
 
