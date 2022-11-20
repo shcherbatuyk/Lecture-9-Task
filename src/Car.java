@@ -2,7 +2,6 @@ import java.util.UUID;
 
 public class Car {
     private String id;
-    //private String brand;
     private CarBrands brand;
     private int year;
     private int mileage;
