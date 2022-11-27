@@ -1,8 +1,8 @@
 public enum CarBrands {
-    Tesla,
-    Audi,
+    TESLA,
+    AUDI,
     BMW,
-    Toyota,
-    Nissan
+    TOYOTA,
+    NISSAN
 
 }

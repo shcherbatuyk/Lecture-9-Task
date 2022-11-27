@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class carGenerator {
+public class CarGenerator {
 
     public Car generateCar() {
         Random random = new Random();
@@ -12,16 +12,16 @@ public class carGenerator {
                 currentBrand = CarBrands.BMW;
                 break;
             case (2):
-                currentBrand = CarBrands.Audi;
+                currentBrand = CarBrands.AUDI;
                 break;
             case (3):
-                currentBrand = CarBrands.Nissan;
+                currentBrand = CarBrands.NISSAN;
                 break;
             case (4):
-                currentBrand = CarBrands.Tesla;
+                currentBrand = CarBrands.TESLA;
                 break;
             default:
-                currentBrand = CarBrands.Toyota;
+                currentBrand = CarBrands.TOYOTA;
         }
 
         int randYear = random.nextInt(1999, 2022);
